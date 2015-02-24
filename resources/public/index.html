@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 id="title">Torre de Hanoi</h1>
+
+    <div id="board">
+        <ul id="tower1">
+            <li class="small-disc">Small</li>
+            <li class="medium-disc">Medium</li>
+            <li class="big-disc">Big</li>
+        </ul>
+
+        <ul id="tower2">
+            <li class="small-disc">Small</li>
+            <li class="medium-disc">Medium</li>
+            <li class="big-disc">Big</li>
+        </ul>
+
+        <ul id="tower3">
+            <li class="small-disc">Small</li>
+            <li class="medium-disc">Medium</li>
+            <li class="big-disc">Big</li>
+        </ul>
+    </div>
+
+  <script src="out/goog/base.js"></script>
+  <script src="app.js"></script>
+  <script>
+    goog.require("hanoi.connect");
+    goog.require("hanoi.core");
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+#board ul {
+    display: inline-block;
+    background: url(images/tower.png) no-repeat;
+    width: 94px;
+    height: 168px;
+}
