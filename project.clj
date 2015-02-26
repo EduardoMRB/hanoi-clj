@@ -7,7 +7,8 @@
                  [org.clojure/clojurescript "0.0-2850"]
                  [org.clojure/core.match "0.3.0-alpha4"]
                  [figwheel "0.2.3-SNAPSHOT"]
-                 [midje "1.6.3"]]
+                 [midje "1.6.3"]
+                 [hiccups "0.3.0"]]
   :plugins [[lein-cljsbuild "1.0.6-SNAPSHOT"]
             [lein-figwheel "0.2.1-SNAPSHOT"]]
   :cljsbuild

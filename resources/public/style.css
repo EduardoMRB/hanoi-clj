@@ -1,13 +1,31 @@
 ul {
-    list-style: none;
-    padding: 0;
-    border: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 #board ul {
-    display: inline-block;
-    background: url(images/tower.png) no-repeat;
-    width: 94px;
-    height: 168px;
+  display: inline-block;
+  background: url(images/tower.png) no-repeat;
+  width: 94px;
+  height: 168px;
+}
+
+.small-disc {
+  width: 94px;
+  height: 16px;
+  background: url(images/small.png) no-repeat center center;
+}
+
+.medium-disc {
+  width: 94px;
+  height: 16px;
+  background: url(images/medium.png) no-repeat center center;
+}
+
+.big-disc {
+  width: 94px;
+  height: 16px;
+  background: url(images/big.png) no-repeat center center;
 }
