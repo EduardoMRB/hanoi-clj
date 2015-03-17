@@ -10,12 +10,20 @@
 
   <div id="container">
   </div>
+  <div id="controls">
+    <input id="from" class="control" type="text">
+    <input id="to" class="control" type="text">
+    <button id="move" type="button">Mover!</button>
+  </div>
 
   <script src="out/goog/base.js"></script>
   <script src="app.js"></script>
   <script>
     goog.require("hanoi.connect");
     goog.require("hanoi.core");
+  </script>
+  <script>
+    hanoi.core.init();
   </script>
 </body>
 </html>

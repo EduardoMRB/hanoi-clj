@@ -8,6 +8,7 @@ ul {
 #board ul {
   display: inline-block;
   background: url(images/tower.png) no-repeat;
+  padding-top: 24px;
   width: 94px;
   height: 168px;
 }

@@ -6,9 +6,11 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2850"]
                  [org.clojure/core.match "0.3.0-alpha4"]
+                 [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [figwheel "0.2.3-SNAPSHOT"]
                  [midje "1.6.3"]
-                 [hiccups "0.3.0"]]
+                 [hiccups "0.3.0"]
+                 [domina "1.0.3"]]
   :plugins [[lein-cljsbuild "1.0.6-SNAPSHOT"]
             [lein-figwheel "0.2.1-SNAPSHOT"]]
   :cljsbuild
